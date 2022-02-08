@@ -15,16 +15,16 @@ This offers an [OCR-D](https://ocr-d.de) compliant [workspace processor](https:/
 [TEI](https://tei-c.org/) conversion.
 
 It _wraps_ the XSL transformation [page2tei](https://github.com/tboenig/page2tei)
-for OCR-D.
+for OCR-D:
 
-For XSL processing, it uses [Saxon](http://www.saxonica.com/).
+ * For XSL processing, it uses [Saxon](http://www.saxonica.com/).
 
-For handling METS/PAGE, and providing the OCR-D CLI, it is written as a shell script,
+ * For handling METS/PAGE, and providing the OCR-D CLI, it is written as a shell script,
 and relies heavily on the [OCR-D core bashlib API](https://github.com/OCR-D/core).
 
 ## Installation
 
-Requires [Saxon](http://www.saxonica.com/) and [GNU make](http://www.gnu.org/software/make).
+Requires Java>=8, [Saxon](http://www.saxonica.com/) and [GNU make](http://www.gnu.org/software/make).
 
 To install system dependencies on Ubuntu, do
 
@@ -32,7 +32,11 @@ To install system dependencies on Ubuntu, do
 
 Which is the equivalent of:
 
-    apt install libsaxon-java
+    apt install openjdk-8-jre-headless
+
+To install local dependencies (download Saxon and page2tei), do
+
+    make deps
 
 To install this module, then do:
 

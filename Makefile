@@ -20,7 +20,7 @@ help:
 	@echo "  Targets:"
 	@echo "  * help        (this message)"
 	@echo "  * deps-ubuntu (install system dependencies)"
-	@echo "  * deps        (download and unpack Saxon and page2tei)"
+	@echo "  * deps        (download and unpack Saxon library and page2tei repo)"
 	@echo "  * install     (copy 'ocrd-page2tei' script and XSL scripts to"
 	@echo "  *              VIRTUAL_ENV=$(VIRTUAL_ENV)"
 	@echo "  *              from repository workdir)"
