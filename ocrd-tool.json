@@ -1,0 +1,12 @@
+{
+    "git_url": "https://github.com/bertsky/ocrd_page2tei",
+    "version": "0.1.0",
+    "tools": {
+        "ocrd-page2tei": {
+            "executable": "ocrd-page2tei",
+            "description": "Convert PAGE-XML to TEI-C",
+            "parameters": {
+            }
+        }
+    }
+}

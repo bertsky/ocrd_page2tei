@@ -1,0 +1,3 @@
+[submodule "repo/page2tei"]
+	path = repo/page2tei
+	url = https://github.com/bertsky/page2tei
